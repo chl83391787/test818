@@ -157,7 +157,7 @@ button { cursor: pointer; }
 }
 .collection-row:last-child { margin-bottom: 0; }
 .collection-row.is-reverse { flex-direction: row-reverse; }
-.collection-media { flex: 0 0 38%; border-radius: var(--radius-md); }
+.collection-media img{ flex: 0 0 38%; border-radius: var(--radius-lg); }
 .collection-content {
   flex: 1;
   display: flex;
@@ -196,17 +196,7 @@ button { cursor: pointer; }
 .trending { background-color: var(--bg-soft); }
 .trending-sub { margin-bottom: var(--num24); }
 .trending-body { display: flex; align-items: stretch; gap: var(--num24); }
-.trending-promo {
-  flex: 0 0 260px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: var(--num24);
-  background-color: var(--main);
-  color: var(--color-Wh);
-  border-radius: var(--radius-md);
-  padding: var(--num32) var(--num24);
-}
+
 .trending-list { margin-top: var(--num16); display: flex; flex-direction: column; gap: var(--num8); }
 .trending-products {
   flex: 1;

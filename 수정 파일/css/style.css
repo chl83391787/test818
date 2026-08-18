@@ -1,0 +1,33 @@
+
+.collection-media img {
+  border-radius:30px;
+
+
+}
+.promo-card{
+  border-radius:30px;
+}
+
+.product-name {
+  font-size: var(--text-SMALL);
+  font-weight: var(--textW-XS);
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* img-wrap ratio-portrait */
+.trending-promo {
+  flex: 0 0 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--num24);
+  background-color: var(--main);
+  color: var(--color-Wh);
+  border-radius: var(--radius-md);
+  padding: var(--num32) var(--num24);
+}
